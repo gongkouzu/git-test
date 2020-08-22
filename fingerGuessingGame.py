@@ -27,3 +27,4 @@ while n < 3:
     print('\n')
 
 print('游戏结束！')
+print('游戏结束！')
