@@ -25,3 +25,5 @@ while n < 3:
 
     print('你已获胜' + str(n) + '局')
     print('\n')
+
+print('游戏结束！')
