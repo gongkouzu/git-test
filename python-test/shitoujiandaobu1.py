@@ -16,3 +16,4 @@ while win < 4:
     else:
         print("电脑胜出")
     print("您已获胜" + str(win)+"局")
+    time += 1
