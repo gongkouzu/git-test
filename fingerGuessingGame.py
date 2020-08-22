@@ -6,3 +6,5 @@ n = 0
 k = 0
 while n < 3:
     k += 1
+
+    print('当前第' + str(k) + '局游戏')
