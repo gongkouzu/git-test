@@ -1,1 +1,1 @@
-print("A = 1")
+import random
