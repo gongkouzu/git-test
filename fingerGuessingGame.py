@@ -7,3 +7,4 @@ k = 0
 while n < 3:
     k += 1
     print('当前第' + str(k) + '局游戏')
+    myNumber = input('请输入猜拳对应数字：')
