@@ -14,3 +14,12 @@ while n < 3:
     print('你出了' + fingerGuessingGame[myNumber])
     computerNumbers = random.randint(0, 2)
     print('电脑出了' + fingerGuessingGame[computerNumbers])
+
+    if (myNumber == 0 and computerNumbers == 1) or (myNumber == 1 and computerNumbers == 2) or (myNumber == 2 and computerNumbers == 0):
+        print('你赢了！')
+        n += 1
+    elif myNumber == computerNumbers:
+        print('平局！')
+    else:
+        print('你输了！')
+
