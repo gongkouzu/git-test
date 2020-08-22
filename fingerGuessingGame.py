@@ -8,6 +8,7 @@ while n < 3:
     k += 1
 
     print('haha')
+    print('乱七八糟')
     print('当前第' + str(k) + '局游戏')
     myNumber = input('请输入猜拳对应数字：')
     myNumber = int(myNumber)
