@@ -9,3 +9,13 @@ while   win < 3:
     print("你输入的是：" + user)
     print("电脑输入的是："+ computer_choice)
     print("当前是第"+str(time)+"局")
+    if (user == '石头' and computer_choice == '剪刀') or (user == '剪刀' and computer_choice== '布' ) or(user == '布' and computer_choice == '石头'):
+        win += 1
+        print("你赢了")
+        print("您已获胜"+str(win)+"局")
+    elif user == computer_choice:
+        print("平局")
+        print("您已获胜"+str(win)+"局")
+    else:
+        print("你输了")
+        print("您已获胜"+str(win)+"局")
