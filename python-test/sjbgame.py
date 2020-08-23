@@ -19,3 +19,4 @@ while   win < 3:
     else:
         print("你输了")
         print("您已获胜"+str(win)+"局")
+    time += 1
