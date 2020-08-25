@@ -10,3 +10,4 @@ elif anwser == "2":
     print("憨批")
 else:
     print("煞笔")
+
